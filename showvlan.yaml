@@ -1,4 +1,3 @@
-tasks:
   - name: run show version on remote devices
     aruba_command:
       commands: show version
