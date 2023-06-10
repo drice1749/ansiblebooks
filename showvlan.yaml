@@ -1,15 +1,15 @@
 ---
 -  hosts: all
 
-tasks:
-  - name: run show version on remote devices
-    aruba_command:
-      commands: show version
+  tasks:
+      - name: run show version on remote devices
+        aruba_command:
+        commands: show version
 
 
-#collections:
+collections:
 #     - arubanetworks.aos_switch
-#   tasks:
+   tasks:
 #     - name: Create VLAN 300
 #       arubaoss_vlan:
 #        vlan_id: 400
