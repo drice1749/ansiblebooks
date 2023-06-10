@@ -1,4 +1,3 @@
-- name: Create VLAN 300
   arubaoss_vlan:
     vlan_id: 400
     name: "vlan400"
