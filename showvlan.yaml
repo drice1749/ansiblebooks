@@ -1,6 +1,7 @@
 ---
 -  hosts: all
 
+  become: true
   tasks:
       - name: run show version on remote devices
         aruba_command:
